@@ -2,13 +2,19 @@
   margin: 0;
   padding: 0;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
 .container {
-  margin: 22px auto;
   width: 1068px;
   max-height: 665px;
   background: #f5f5f5;
   padding: 24px;
+  box-shadow: 10px 10px 10px #d1d1d1;
 }
 
 .cabecalho {
@@ -18,6 +24,7 @@
 .wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 22px;
 }
 .formulario {
@@ -37,17 +44,20 @@
   outline: none;
 }
 
-.btnCalcular {
+.btnCalc {
   background: #407bff;
   border-radius: 4px;
   border-style: none;
   box-shadow: 0 4px 6px #8180808c;
   cursor: pointer;
   font-weight: bold;
-  padding: 12.5px 0;
+  padding: 14px;
   width: 340px;
 }
-
+.btnCalc:hover{
+  background: #0653f8;
+  transition: background 0.5s ease-in-out;
+}
 .resultado {
   margin-top: 32px;
   text-align: center;
