@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 22px auto;
+  width: 1068px;
+  max-height: 665px;
+  background: #f5f5f5;
+  padding: 24px;
+}
+
+.cabecalho {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+  width: 50%;
+}
+.questionario {
+  display: block;
+  width: 340px;
+  height: 44px;
+  /*margin-right: 117px;*/
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: solid 1px#B0BEC5;
+  outline: none;
+}
+
+.btnCalcular {
+  background: #407bff;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: 0 4px 6px #8180808c;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12.5px 0;
+  width: 340px;
+}
+
+.resultado {
+  margin-top: 32px;
+  text-align: center;
+}
+.subtitulo {
+  margin-bottom: 12px;
+  font-weight: bolder;
+}
+.texto {
+  margin-bottom: 12px;
+}
+
+span {
+  font-weight: bold;
+}
